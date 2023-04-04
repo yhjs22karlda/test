@@ -68,7 +68,7 @@
   }
   ```
 
-- ### GET /api/user/history/:userId
+- ### GET /api/user/history/{userId}
   - get user history
   - 
   response:
