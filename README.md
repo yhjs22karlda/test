@@ -8,7 +8,7 @@
   request:
   ```
   {
-    "userId": "BJ8hbxOmt3vIamfu",
+    "userId": String,
     "order": [
       {
         "name": String,
