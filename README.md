@@ -1,8 +1,8 @@
 ## Endpoints
-### /api/bean
+### - GET /api/bean
 get pruducts array
 
-### /api/bean/order
+- ### POST /api/bean/order
 post order
 request:
 ```
