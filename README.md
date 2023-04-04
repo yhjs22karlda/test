@@ -4,7 +4,9 @@
 
 /api/bean/order
 - post order
--In: {
+- request:
+```
+{
   "userId": "BJ8hbxOmt3vIamfu",
   "order": [
     {
@@ -17,12 +19,14 @@
     }
   ]
 }
-
-Ut: {
+```
+response:
+```
+{
     "eta": 14,
     "orderNr": "711e9a24-083c-4a0c-a2a2-980ac37a556d"
 }
-
+```
 /api/bean/order/status/826277a9-c8b3-45a8-b402-1ff338250881
 - get order status
 Response: {
