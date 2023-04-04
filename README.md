@@ -3,8 +3,8 @@
   - get all pruducts
 
 - ### POST /api/bean/order
-  make an order
-  - request:
+  - make an order
+  request:
   ```
   {
     "userId": "BJ8hbxOmt3vIamfu",
@@ -23,26 +23,30 @@
       "orderNr": String
   }
   ```
-/api/bean/order/status/826277a9-c8b3-45a8-b402-1ff338250881
-- get order status
-Response: {
-    "success": false,
-    "msg": "Ordernumret finns inte"
-}
-
-/api/user/signup
-- create user
-request: 
-{
-  "username": "orvar",
-  "password": "abc12d3"
-}
-
-response:
-{
-    "success": true
-}
-
+- ### /api/bean/order/status/{ordernummer}
+  - get order status
+  Response:
+  ```
+  {
+      "success": false,
+      "msg": "Ordernumret finns inte"
+  }
+  ```
+- ###/api/user/signup
+  - create user
+  request:
+  ```
+  {
+    "username": "orvar",
+    "password": "abc12d3"
+  }
+  ```
+  response:
+  ```
+  {
+      "success": true
+  }
+  ```
 /api/user/login
 - log in
 request:
