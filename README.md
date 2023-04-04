@@ -1,10 +1,10 @@
 ## Endpoints
-### - GET /api/bean
+- ### GET /api/bean
 get pruducts array
 
 - ### POST /api/bean/order
-post order
-request:
+- post order
+- request:
 ```
 {
   "userId": "BJ8hbxOmt3vIamfu",
