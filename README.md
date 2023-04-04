@@ -70,12 +70,12 @@
 
 - ### GET /api/user/history/{userId}
   - get user history
-  - 
+  
   response:
   ```
   {
-      "success": true,
-      "userId": "BJ8hbxOmt3vIamfu",
+      "success": Boolean,
+      "userId": String,
       "history": [
           {
               "orderNr": String,
