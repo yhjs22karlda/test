@@ -1,21 +1,21 @@
 ## Endpoints
 - ### GET /api/bean
-get pruducts array
+  - get pruducts array
 
 - ### POST /api/bean/order
-- post order
-- request:
-```
-{
-  "userId": "BJ8hbxOmt3vIamfu",
-  "order": [
-    {
-      "name": String,
-      "price": Number
-    }
-  ]
-}
-```
+  - post order
+  - request:
+  ```
+  {
+    "userId": "BJ8hbxOmt3vIamfu",
+    "order": [
+      {
+        "name": String,
+        "price": Number
+      }
+    ]
+  }
+  ```
 response:
 ```
 {
