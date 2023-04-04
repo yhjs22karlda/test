@@ -1,9 +1,9 @@
 ## Endpoints
 - ### GET /api/bean
-  - get pruducts array
+  - get all pruducts
 
 - ### POST /api/bean/order
-  - post order
+  make an order
   - request:
   ```
   {
@@ -16,13 +16,13 @@
     ]
   }
   ```
-response:
-```
-{
-    "eta": Number,
-    "orderNr": String
-}
-```
+  response:
+  ```
+  {
+      "eta": Number,
+      "orderNr": String
+  }
+  ```
 /api/bean/order/status/826277a9-c8b3-45a8-b402-1ff338250881
 - get order status
 Response: {
