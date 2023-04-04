@@ -4,6 +4,7 @@
 
 - ### POST /api/bean/order
   - make an order
+  
   request:
   ```
   {
