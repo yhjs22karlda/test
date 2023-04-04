@@ -1,21 +1,17 @@
 ## Endpoints
-/api/bean
--get pruducts array
+### /api/bean
+get pruducts array
 
-/api/bean/order
-- post order
-- request:
+### /api/bean/order
+post order
+request:
 ```
 {
   "userId": "BJ8hbxOmt3vIamfu",
   "order": [
     {
-      "name": "Cortada",
-      "price": 39
-    },
-    {
-      "name": "Kaffe Latte",
-      "price": 45
+      "name": String,
+      "price": Number
     }
   ]
 }
@@ -23,8 +19,8 @@
 response:
 ```
 {
-    "eta": 14,
-    "orderNr": "711e9a24-083c-4a0c-a2a2-980ac37a556d"
+    "eta": Number,
+    "orderNr": String
 }
 ```
 /api/bean/order/status/826277a9-c8b3-45a8-b402-1ff338250881
